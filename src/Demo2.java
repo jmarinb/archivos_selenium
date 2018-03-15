@@ -12,6 +12,7 @@ public class Demo2 {
 		WebDriver driver = new ChromeDriver();
 		
 		driver.get("https://www.mitelcel.com/mitelcel/login");
+		driver.close();
 		
 		
 
